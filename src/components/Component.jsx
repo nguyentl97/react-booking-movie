@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import {useSelector} from 'react-redux'
-import { TOKEN, USERLOGIN } from '../../util/setting';
+import { useSelector } from 'react-redux'
+import { TOKEN, USERLOGIN } from '../redux/actions/types/Type';
 export default function Header() {
 
     const {taiKhoan} = useSelector(state => state.NguoiDungReducer);

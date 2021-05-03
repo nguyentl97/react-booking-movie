@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./Course/FrontEnd58/Ex12_ReacApp/
+        working-directory: ./
     name: Deploying to surge
     steps:
       - name: Checkout repository
